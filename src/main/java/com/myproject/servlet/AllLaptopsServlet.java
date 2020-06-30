@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Collection;
 
-@WebServlet(urlPatterns = "/alllaptops", name = "Laptops")
+@WebServlet(urlPatterns = "/allLaptops", name = "Laptops")
 public class AllLaptopsServlet extends HttpServlet {
     private LaptopDao laptopDao;
     private Logger logger = LoggerFactory.getLogger(AppContextListener.class);

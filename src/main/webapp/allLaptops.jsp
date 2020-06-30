@@ -3,7 +3,7 @@
 <table class="table">
     <thead>
     <tr>
-        <th>ID</th>
+        <th>id</th>
         <th>name</th>
         <th>productGroup</th>
         <th>price</th>
@@ -16,7 +16,7 @@
             <td>${laptop.name}</td>
             <td>${laptop.productGroup}</td>
             <td>${laptop.price}</td>
-            <td><a href="${pageContext.request.contextPath}/showlaptop?id=${mobile.id}">Link</a></td>
+            <td><a href="${pageContext.request.contextPath}/showlaptop?id=${laptops.id}">Link</a></td>
         </tr>
     </c:forEach>
     </tbody>

@@ -39,6 +39,6 @@ public class AddLaptopServlet extends HttpServlet {
         Laptop laptop = new Laptop(null, name, productGroup, Double.valueOf(price));
         laptopDao.addLaptop(laptop);
 
-        resp.sendRedirect(req.getContextPath() + "/alllaptops");
+        resp.sendRedirect(req.getContextPath() + "/allLaptops");
     }
 }
