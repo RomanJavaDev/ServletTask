@@ -10,34 +10,35 @@
     </context-param>
 
 
-    <!--    <listener>
-            <listener-class>com.inno.servlet.AppContextListener</listener-class>
-        </listener>
-        <servlet>
-            <servlet-name>Mobiles</servlet-name>
-            <servlet-class>com.inno.servlet.AllLaptopsServlet</servlet-class>
-            <load-on-startup>1</load-on-startup>
-        </servlet>
-        <servlet-mapping>
-            <servlet-name>Mobiles</servlet-name>
-            <url-pattern>/allmobiles</url-pattern>
-        </servlet-mapping>
-        <servlet>
-            <servlet-name>AddMobile</servlet-name>
-            <servlet-class>com.inno.servlet.AddMobileServlet</servlet-class>
-        </servlet>
-        <servlet-mapping>
-            <servlet-name>AddMobile</servlet-name>
-            <url-pattern>/addmobile</url-pattern>
-        </servlet-mapping>
-        <servlet>
-            <servlet-name>ShowMobile</servlet-name>
-            <servlet-class>com.inno.servlet.AddMobileServlet</servlet-class>
-        </servlet>
-        <servlet-mapping>
-            <servlet-name>ShowMobile</servlet-name>
-            <url-pattern>/showmobile</url-pattern>
-        </servlet-mapping>-->
+<!--       <listener>-->
+<!--            <listener-class>com.myproject.servlet.AppContextListener</listener-class>-->
+<!--        </listener>-->
+<!--        <servlet>-->
+<!--            <servlet-name>Laptops</servlet-name>-->
+<!--            <servlet-class>com.myproject.servlet.AllLaptopsServlet</servlet-class>-->
+<!--            <load-on-startup>1</load-on-startup>-->
+<!--        </servlet>-->
+<!--        <servlet-mapping>-->
+<!--            <servlet-name>Laptops</servlet-name>-->
+<!--            <url-pattern>/allLaptops</url-pattern>-->
+<!--        </servlet-mapping>-->
+<!--        <servlet>-->
+<!--            <servlet-name>AddLaptop</servlet-name>-->
+<!--            <servlet-class>com.myproject.servlet.AddLaptopServlet</servlet-class>-->
+<!--        </servlet>-->
+<!--        <servlet-mapping>-->
+<!--            <servlet-name>AddLaptop</servlet-name>-->
+<!--            <url-pattern>/addlaptop</url-pattern>-->
+<!--        </servlet-mapping>-->
+<!--        <servlet>-->
+<!--            <servlet-name>ShowLaptop</servlet-name>-->
+<!--            <servlet-class>com.myproject.servlet.AddLaptopServlet</servlet-class>-->
+<!--        </servlet>-->
+<!--        <servlet-mapping>-->
+<!--            <servlet-name>ShowLaptop</servlet-name>-->
+<!--            <url-pattern>/showlaptop</url-pattern>-->
+<!--        </servlet-mapping>-->
+
 
     <servlet>
         <servlet-name>errorHandler</servlet-name>
@@ -59,16 +60,16 @@
         <location>/error</location>
     </error-page>
 
-    <!--
-        <filter>
-            <filter-name>logFilter</filter-name>
-            <filter-class>com.inno.servlet.LogFilter</filter-class>
-        </filter>
-        <filter-mapping>
-            <filter-name>logFilter</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
-    -->
+<!--    -->
+<!--        <filter>-->
+<!--            <filter-name>logFilter</filter-name>-->
+<!--            <filter-class>com.myproject.servlet.LogFilter</filter-class>-->
+<!--        </filter>-->
+<!--        <filter-mapping>-->
+<!--            <filter-name>logFilter</filter-name>-->
+<!--            <url-pattern>/*</url-pattern>-->
+<!--        </filter-mapping>-->
+<!--   -->
 
     <jsp-config>
         <taglib>

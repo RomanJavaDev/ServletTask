@@ -51,7 +51,7 @@ public class LaptopDaoJdbcImpl implements LaptopDao {
             preparedStatement.execute();
 
         } catch (SQLException e) {
-            LOGGER.error("Some thing wrong in addLaptop method", e);
+            LOGGER.error("Something wrong in addLaptop method", e);
             return false;
         }
         return true;
@@ -102,7 +102,7 @@ public class LaptopDaoJdbcImpl implements LaptopDao {
             }
             return laptops;
         } catch (SQLException e) {
-            LOGGER.error("Some thing wrong in getMobileById method", e);
+            LOGGER.error("Some thing wrong in getLaptopById method", e);
         }
         return new ArrayList<>();
     }
